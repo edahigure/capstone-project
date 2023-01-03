@@ -1,0 +1,140 @@
+.d-flex{
+    list-style: none;
+}
+
+.desktop {
+    display: none;
+}
+
+.background-0 {    
+    background-image: url("./images/hero_container.png");
+}
+
+.salute {    
+    font-family: lato;
+    color: #EC5242;
+    font-size: 24px;    
+}
+
+.title {
+    font-family: lato;
+    color: #EC5242;
+    font-size: 48px;
+    font-weight: bold;
+    background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    mix-blend-mode: multiply;
+}
+
+.content {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;    
+    color: #515151;  
+    border-style: solid; 
+    border-width: 5px;
+    border-color: white;
+}
+
+.date {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;    
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.08em;    
+    color: #595959;    
+}
+
+.place {
+    font-family: 'Gothic A1';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;    
+}
+
+.main-program {
+    background-image: url('./images/background_program.jpeg');
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+}
+
+.subtitle {        
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;            
+    letter-spacing: -0.04em;    
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;    
+}
+
+.line {
+    width: 8%;
+    height: 0px;    
+    border: 1px solid #A04038;
+    display: flex;
+    justify-items:center;    
+}
+
+.program-item {    
+    display: flex;
+    align-items: center;
+    gap: 24px;  
+    background-color: rgba(255, 255, 255, 0.1);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);    
+}
+
+.lecture {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 25px;        
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.01em;    
+    color: #FF5438;    
+    
+}
+
+.lecture-info {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10.7034px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;    
+    color: #FFFFFF;        
+}
+
+.orange-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 68px;    
+    background: #FF4F38;
+    border-style: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 28px;    
+    letter-spacing: -0.01em;    
+    color: #FFFFFF;    
+}
