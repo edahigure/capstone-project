@@ -36,6 +36,7 @@ body {
         font-weight: bold;
         background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));    
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         mix-blend-mode: multiply;
         margin-bottom: 42px;           
@@ -375,6 +376,7 @@ body {
         font-weight: bold;
         background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         mix-blend-mode: multiply;
         background-repeat: no-repeat; 
@@ -546,6 +548,7 @@ body {
         font-weight: bold;
         background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));    
         -webkit-background-clip: text;
+        background-clip: text;
         -webkit-text-fill-color: transparent;
         mix-blend-mode: multiply;    
         padding-left: $padding-left;
@@ -1051,6 +1054,7 @@ body {
         font-weight: bold;
         background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));
         -webkit-background-clip: text;
+        background-clip: text;        
         -webkit-text-fill-color: transparent;
         mix-blend-mode: multiply;
         background-repeat: no-repeat; 
