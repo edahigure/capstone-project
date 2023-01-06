@@ -57,6 +57,24 @@ for (let i = 0; i < 2; i += 1) {
 
 speakersSection.innerHTML = bigString;
 
+const speakersBis = document.querySelector('.speakers-bis');
+  let bigString2 = '';
+  for (let i = 2; i < speakersInfo.length; i += 1) {
+    bigString2 += `
+    
+    <div class="wrapper-speaker">      
+      <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}">      </div> 
+      <div class="item-2">
+        <div class="name"> ${speakersInfo[i].name} </div>
+        <div class="affiliation"> ${speakersInfo[i].affiliation} </div>
+        <div class="bio"> ${speakersInfo[i].bio} </div>
+      </div>
+    </div>    
+    `;
+  }
+  speakersBis.innerHTML = bigString2;
+  
+
 const moreIcon = document.querySelector('#more-icon');
 
 function display() {

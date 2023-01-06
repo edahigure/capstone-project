@@ -185,13 +185,13 @@ body {
   .speakers {
     display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(1, 435px);
+    grid-template-rows: repeat(1, 300px);
   }
 
   .speakers-bis {
-    display: none;
+    display: grid;
     grid-template-columns: repeat(2, 50%);
-    grid-template-rows: repeat(2, 435px);
+    grid-template-rows: repeat(1, 300px);
   }
 
   .title-speakers {
@@ -213,7 +213,7 @@ body {
   }
 
   .more {
-    display: flex;
+    display: none;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -231,7 +231,7 @@ body {
   }
 
   .less {
-    display: none;
+    display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -259,7 +259,7 @@ body {
     background-image: url('./images/speaker_backg.png');
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 30px;
+    padding: 20px;
   }
 
   .item-2 {
@@ -274,6 +274,7 @@ body {
     align-items: center;
     letter-spacing: -0.02em;
     color: #000;
+    padding-top: 15px;
   }
 
   .affiliation {
@@ -284,6 +285,7 @@ body {
     align-items: center;
     letter-spacing: -0.02em;
     color: #f78c89;
+    padding-bottom: 15px;
   }
 
   .bio {
@@ -316,9 +318,11 @@ body {
   .sponsor-1 {
     color: white;
     font-size: 24px;
+    margin-top: 35px;
   }
 
   .container-items {
+    list-style: none;
     display: flex;
     gap: 50px;
     margin-bottom: 35px;
@@ -529,6 +533,14 @@ body {
     padding-top: 25px;
     padding-bottom: 30px;
   }
+
+  #more-icon {
+    color: red;
+  }
+
+  #less-icon {
+    color: red;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -711,13 +723,13 @@ body {
   .speakers {
     display: grid;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(2, 300px);
+    grid-template-rows: repeat(2, 150px);
   }
 
   .speakers-bis {
     display: none;
     grid-template-columns: repeat(1, 100%);
-    grid-template-rows: repeat(4, 300px);
+    grid-template-rows: repeat(4, 150px);
   }
 
   .text-style {
@@ -780,7 +792,7 @@ body {
     background-image: url('./images/speaker_backg.png');
     background-repeat: no-repeat;
     background-size: contain;
-    padding: 30px;
+    padding: 20px;
   }
 
   .item-2 {
@@ -799,6 +811,7 @@ body {
     align-items: center;
     letter-spacing: -0.02em;
     color: #000;
+    padding-top: 15px;
   }
 
   .affiliation {
@@ -809,6 +822,7 @@ body {
     align-items: center;
     letter-spacing: -0.02em;
     color: #f78c89;
+    padding-bottom: 15px;
   }
 
   .bio {
@@ -1031,7 +1045,7 @@ body {
 
   .ccright {
     font-weight: 700;
-    font-size: 10px;
+    font-size: small;
     line-height: 13px;
     display: flex;
     align-items: center;
@@ -1082,6 +1096,8 @@ body {
   }
 
   .sponsor-1 {
+    color: #dcdcdc;
+    font-weight: 900;
     padding-top: 30px;
     padding-bottom: 10px;
   }
@@ -1096,5 +1112,9 @@ body {
 
   .container-items-cc-desktop-about {
     display: none;
+  }
+
+  .CC {
+    font-weight: 900;
   }
 }
