@@ -1,7 +1,7 @@
 const speakersInfo = [
     {    name: 'Edahi Antonio Gutiérrez Reyes',
          affiliation: 'Currently Studying web programing at Microverse',
-         bio: 'Edahi made studies in effective electrical properties of composite materials as well as scatering theories of light propagation',
+         bio: 'Expert in effective electrical properties of composite materials as well as scatering theories of light propagation',
          photo: './images/photo_1.png',
     },
     {    name: 'Ruben Barrera Pérez',
@@ -35,10 +35,6 @@ const speakersInfo = [
 const speakersSection = document.querySelector('.speakers');
 
 let bigString = `
-     <div class="title-speakers">
-      <div class="text-style"> Featured Speakers</div>
-      </div>
-     <div class="line"></div>
 `;
 
 
@@ -46,7 +42,7 @@ let bigString = `
 for (let i=0;i<2;i++) {
     bigString+= `
     
-    <div class="wrapper-1">          
+    <div class="wrapper-speaker">          
         <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}">          </div> 
         <div class="item-2">
             <div class="name"> ${speakersInfo[i].name} </div>
@@ -58,7 +54,7 @@ for (let i=0;i<2;i++) {
     ` 
 }
 
-console.log(bigString);
+
 speakersSection.innerHTML = bigString;
 
 moreIcon=document.querySelector('#more-icon');
@@ -70,7 +66,7 @@ function display()
     for (let i = 2 ; i < speakersInfo.length; i+=1) {
         bigString2+= `
         
-        <div class="wrapper-1">          
+        <div class="wrapper-speaker">          
             <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}">          </div> 
             <div class="item-2">
                 <div class="name"> ${speakersInfo[i].name} </div>
@@ -83,7 +79,7 @@ function display()
     }
     
     speakersBis.innerHTML = bigString2;
-    speakersBis.style.display = 'block';
+    speakersBis.style.display = 'grid';
     more = document.querySelector('.more');
     more.style.display = 'none';
     less = document.querySelector('.less');
