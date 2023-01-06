@@ -35,7 +35,7 @@ body {
         font-size: 40px;
         font-weight: bold;
         background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));    
-        -webkit-background-clip: text;    
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         mix-blend-mode: multiply;
         margin-bottom: 42px;           
@@ -373,7 +373,8 @@ body {
         color: $orange;
         font-size: 40px;
         font-weight: bold;
-        background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));                
+        background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         mix-blend-mode: multiply;
         background-repeat: no-repeat; 
@@ -400,6 +401,7 @@ body {
         width: 64%;
         background-color: white;
     }    
+
     .email-about {
         margin-bottom: 118px;;
     }
@@ -434,7 +436,7 @@ body {
     }
 
     .big-logo {
-        width: 600px;
+        width: 600;
         border: solid #e0e2e7 2px;
         margin-bottom: 65px;
     }
@@ -478,6 +480,9 @@ body {
         width: 90%;
         min-height: 182px;
         color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
     
@@ -487,10 +492,12 @@ body {
         background-repeat: no-repeat;
         background-color:  #db5106b7;
         background-blend-mode: multiply;
-
         width: 90%;
         min-height: 182px;
         color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;        
     }
 
     .wrapper-past-events {
@@ -507,6 +514,22 @@ body {
     .container-items-cc-mobile {
         display: none;
     }
+
+    .content-2 {
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 25px;        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;    
+        color: #7A7A7A;   
+        background: #F7F7F8;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 25px;
+        padding-bottom: 30px;
+    }    
 
 }    
 
@@ -544,7 +567,7 @@ body {
         font-size: 40px;
         font-weight: bold;
         background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));    
-        -webkit-background-clip: text;        
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         mix-blend-mode: multiply;    
         padding-left: $padding-left;
@@ -953,6 +976,9 @@ body {
         min-height: 182px;
         color: white;
         margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .content-8 {
@@ -965,6 +991,9 @@ body {
         min-height: 182px;
         color: white;
         margin-bottom: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     
     .sponsors-mobile {
@@ -1036,6 +1065,13 @@ body {
         padding-left: 3%;   
         padding-right: 3%;
     }
+
+    .about-info {            
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     
     .salute-about {
         color: $orange;
@@ -1049,7 +1085,7 @@ body {
         font-size: 40px;
         font-weight: bold;
         background: -webkit-linear-gradient(45deg,rgb(254, 2, 2), rgb(242, 116, 6));
-        -webkit-background-clip: text;        
+        -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         mix-blend-mode: multiply;
         background-repeat: no-repeat; 
