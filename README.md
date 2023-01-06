@@ -63,7 +63,6 @@ main page and the about page are completed.
 **[your_project__name]** is a web application with the following features:
 
 It has 2 pages:
-
 -The home page.
 -The about page.
 Each of these pages should have versions for 2 different screen sizes:
