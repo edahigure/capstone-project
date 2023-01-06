@@ -26,14 +26,7 @@ const sponsor = document.querySelector('#menu-sponsor');
 sponsor.addEventListener('click', hide);
 
 const news = document.querySelector('#menu-news');
-sponsor.addEventListener('click', hide);
+news.addEventListener('click', hide);
 
 const campaign = document.querySelector('#menu-campaign');
 campaign.addEventListener('click', hide);
-
-
-
-
-
-
-

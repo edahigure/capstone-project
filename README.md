@@ -60,50 +60,57 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [electromagnetics summit 2023] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> Here I have wrote a web page for a conference on electromagnetism. Only the
+main page and the about page are completed. 
 
-**[your_project__name]** is a...
+**[your_project__name]** is a web application with the following features:
+
+It has 2 pages:
+
+-The home page.
+-The about page.
+Each of these pages should have versions for 2 different screen sizes:
+
+-Mobile: up to 768px wide.
+-Desktop: 768px or wider.
+
+--Interactions
+
+-Links
+The home page should have a link in the menu to the about page.
+The logo in the header links to the home page.
+
+-Mobile menu
+When the user clicks (or taps) the hamburger button on the header, the mobile menu appears over the page.
+There are no guidelines for the mobile menu in the docs, but you should implement it so it is consistent with the design (colors, typography, spacings, etc.).
+The mobile menu should have a close (X) button that closes the menu.
+
+-Dynamic page
+
+The section "Featured speakers" is created dynamically in JavaScript.
+
+
 
 ## 🛠 Built With <a name="built-with"></a>
 
-### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
-<details>
-  <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
-  </ul>
-</details>
+-HTML
+-CSS
+-Javascript
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+
+- **[Pop up menu]**
+- **[More buttonfor displayin speakers]**
+- **[Mix blending functionality]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- LIVE DEMO -->
 
@@ -257,7 +264,9 @@ If you like this project...
 
 > Give credit to everyone who inspired your codebase.
 
-I would like to thank...
+I would like to thank to Cindy Shin in Behance who is the autor of the original design.
+
+[summit.cckorea.org](https://summit.cckorea.org/main.html)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
