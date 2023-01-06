@@ -45,7 +45,7 @@ for (let i = 0; i < 2; i += 1) {
   bigString += `
   
   <div class="wrapper-speaker">      
-    <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}">      </div> 
+    <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}" alt="speaker info">      </div> 
     <div class="item-2">
       <div class="name"> ${speakersInfo[i].name} </div>
       <div class="affiliation"> ${speakersInfo[i].affiliation} </div>
@@ -63,7 +63,7 @@ for (let i = 2; i < speakersInfo.length; i += 1) {
   bigString2 += `
     
     <div class="wrapper-speaker">      
-      <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}">      </div> 
+      <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}" alt="speaker info">      </div> 
       <div class="item-2">
         <div class="name"> ${speakersInfo[i].name} </div>
         <div class="affiliation"> ${speakersInfo[i].affiliation} </div>
@@ -84,7 +84,7 @@ function display() {
     bigString2 += `
     
     <div class="wrapper-speaker">      
-      <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}">      </div> 
+      <div class="item-1"><img class="photo"  src="${speakersInfo[i].photo}" alt="speaker info">      </div> 
       <div class="item-2">
         <div class="name"> ${speakersInfo[i].name} </div>
         <div class="affiliation"> ${speakersInfo[i].affiliation} </div>
